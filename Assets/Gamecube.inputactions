@@ -1,0 +1,313 @@
+{
+    "version": 1,
+    "name": "Gamecube",
+    "maps": [
+        {
+            "name": "Layout",
+            "id": "67752987-bf8f-423d-95a0-e3f6149a3212",
+            "actions": [
+                {
+                    "name": "LeftStick",
+                    "type": "Value",
+                    "id": "ee824ae5-6575-466a-861f-f255dd09d343",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "D-Pad",
+                    "type": "PassThrough",
+                    "id": "fd2e9279-483c-4388-aa21-cc845acc97b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "7fe07dda-3aff-4ff1-838d-92be17533385",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightStick",
+                    "type": "Value",
+                    "id": "174f11bc-b4be-4bd4-ba01-b8b62f4ab57f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Button A",
+                    "type": "Button",
+                    "id": "37419576-589a-4e32-840e-c9da4e3ac693",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button B",
+                    "type": "Button",
+                    "id": "4f302a24-a85c-48ab-9d11-b39d2f430ec0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button X",
+                    "type": "Button",
+                    "id": "0063e4e9-4212-4135-b10c-259bb72b1331",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button Y",
+                    "type": "Button",
+                    "id": "0cb2ae9c-9342-4209-90a6-606d0d245158",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button Z",
+                    "type": "Button",
+                    "id": "7475df85-6812-4ab7-90ef-7e1ffbab32ec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button L",
+                    "type": "PassThrough",
+                    "id": "0e57a4e7-2436-4994-bd7d-69f52942c26a",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button R",
+                    "type": "PassThrough",
+                    "id": "afe6bbd0-1ccc-4977-9703-9f16e5a2eec6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f915ebbc-fc25-4394-9b2c-4b9be7ca0736",
+                    "path": "<GameCubeController>/aButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "694ec052-795e-458b-aa0b-63fff2f26bce",
+                    "path": "<GameCubeController>/bButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b84f650-5e61-465c-8818-493620d1a45c",
+                    "path": "<GameCubeController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "LeftStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Dpad",
+                    "id": "2a67b57d-e682-44ce-acf7-fa0370bc1570",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "D-Pad",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f6219afb-4f70-444e-9b7b-bb9a49d258e5",
+                    "path": "<GameCubeController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6f0b5387-c870-4bee-9366-00ab7c2d3b6b",
+                    "path": "<GameCubeController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "cfe5a113-eef6-485c-983f-e604fd929781",
+                    "path": "<GameCubeController>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a92da849-fe21-4615-a4fd-1e27d7189011",
+                    "path": "<GameCubeController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "D-Pad",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c95cda4a-4a1d-44b0-8bf9-469d6802f38c",
+                    "path": "<GameCubeController>/startButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "592f06b7-454c-45f2-b756-4bfdcbc628ca",
+                    "path": "<GameCubeController>/controlStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "RightStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07d01baf-4c8c-4a3f-979f-05c3916c1274",
+                    "path": "<GameCubeController>/xButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79fb82ef-b023-44fd-a2ed-26369fbc1e2b",
+                    "path": "<GameCubeController>/yButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aade1643-6d4f-4721-b87c-d06a48976076",
+                    "path": "<GameCubeController>/zButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button Z",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "261fbe8b-f642-4ff4-a5ae-fd432e42ea89",
+                    "path": "<GameCubeController>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22482bdf-a450-4b2a-b7d4-d37e9d71177b",
+                    "path": "<GameCubeController>/leftTriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c9ab79e-c6ac-4270-b636-3134ba698498",
+                    "path": "<GameCubeController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b5bfaaf-6c2f-47b0-b865-5cc76978837d",
+                    "path": "<GameCubeController>/rightTriggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamecube",
+                    "action": "Button R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Gamecube",
+            "bindingGroup": "Gamecube",
+            "devices": [
+                {
+                    "devicePath": "<GameCubeController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
